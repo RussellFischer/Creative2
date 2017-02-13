@@ -1,16 +1,25 @@
 <!DOCTYPE html>
 <html>
 <link rel="stylesheet" type="text/css" href="style.css"/>
-
+<link href="https://fonts.googleapis.com/css?family=Barrio" rel="stylesheet">
 <body>
 
-<h1>Unsplash Photos</h1>
+<div id="header">
+<h1>Personality Test</h1>
+<h5>Click on the picture which best descibes you</h5>
+</div>
 
+<div id="pictures">
 <img src="https://source.unsplash.com/category/buildings/400x300" id="img1"/>
 <img src="https://source.unsplash.com/category/nature/400x300" id="img2"/>
 <img src="https://source.unsplash.com/category/food/400x300" id="img3"/>
 <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
 <script src="main.js"> </script>
+</div>
+
+<div id="personalityGenerator">
+<h5>You are a: <span id="stringGenerator"></span> </h5>
+</div>
 
 </body>
 </html>
