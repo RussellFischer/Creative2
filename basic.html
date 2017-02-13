@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
-<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+<link rel="stylesheet" type="text/css" href="style.css"/>
+
 <body>
 
 <h1>Unsplash Photos</h1>
@@ -8,20 +9,8 @@
 <img src="https://source.unsplash.com/category/buildings/400x300" id="img1"/>
 <img src="https://source.unsplash.com/category/nature/400x300" id="img2"/>
 <img src="https://source.unsplash.com/category/food/400x300" id="img3"/>
+<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+<script src="main.js"> </script>
 
-<script>
-function getThreeImages() {
-  $('#img1').attr("src", "https://source.unsplash.com/category/food/400x300");
-}
-
-$(document).ready(function() {
-    $('#img1').mouseover(function() {
-        
-  $('#img1').attr("src", "https://source.unsplash.com/category/food/400x300");
-      });
-
-    });
-</script>
 </body>
 </html>
-
